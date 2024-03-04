@@ -51,7 +51,6 @@ else{
 }
 }
 submit.addEventListener('click',(e)=>{
-  e.preventDefault();
   validateEmail();
 })
 

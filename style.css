@@ -49,7 +49,7 @@ input[type="email"]{
   text-align:center;
   border-radius:10px 10px 0 0 ;
 }
-button{
+input[type="submit"]{
   all:unset;
   width:100%;
   text-align:center;
@@ -63,15 +63,46 @@ button{
   box-shadow:9px 9px 0px #111;
   border-radius:6px;
 }
-button:hover{
+input[type="submit"]:hover{
   transition:all .3s ease;
   box-shadow:1px 1px 0px #111;
   color:#000;
 }
 
 .message_div{
-  font-size:24px;
+  font-size:18px;
+  width:100%;
+  position:absolute;
+  left:0;
+  top:0;
   visibility:hidden;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight:900;
+  text-transform:lowercase;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin:0 auto;
+  background-color:#eee;
+  height:5rem;
+  text-align:center;
+  transition:all .2s ease;
+}
+.message_div.errormsg{
+  color:#9B4444;
+  visibility:hidden;
+}
+.message_div.successmsg{
+  color:#A3C9AA;
+  visibility:hidden;
+}
+div.exist{
+  font-size:18px;
+  width:100%;
+  position:absolute;
+  left:0;
+  top:0;
   font-family: "Lucida Console", "Courier New", monospace;
   font-weight:900;
   text-transform:lowercase;
@@ -82,15 +113,7 @@ button:hover{
   margin:auto auto;
   width:calc(100% - 3rem);
   background-color:#eee;
-  height:7rem;
+  height:5rem;
   text-align:center;
-  transition:all .2s ease;
-}
-.message_div.errormsg{
-  color:red;
-  visibility:hidden;
-}
-.message_div.successmsg{
-  color:green;
-  visibility:hidden;
+  color:#2D3250;
 }
