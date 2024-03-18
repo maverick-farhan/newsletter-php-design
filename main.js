@@ -1,5 +1,5 @@
 // Email Validation
-//Declarative approach:-- Just write, Don't ask why. There should be "No How" only "What" :)
+//Declarative approach:-- Just write, Don't ask why. There should be "No How to do it" but only "What to do" :)
 
 const email = document.querySelector("#email");
 const submit = document.querySelector('#submit');
