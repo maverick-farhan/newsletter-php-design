@@ -117,3 +117,315 @@ div.exist{
   text-align:center;
   color:#2D3250;
 }
+
+@media screen and (max-width:810px){
+div.container{
+  width:calc(100% - 10rem);
+  height:90vh;
+  border:1px solid #111;
+  padding:2rem;
+  border-radius:30px;
+}
+h1.title{
+  font-size:3.5rem;
+  color:#111;
+  text-align:center;
+  font-weight:300;
+  margin:.5rem 0;
+  padding-bottom:1rem;
+}
+div.email-container{
+  width:100%;
+  height:20vh;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items:center; 
+}
+input[type="email"]{
+  all:unset;
+  display:block;
+  width:calc(100% - 4rem);
+  padding:20px;
+  border:1px solid #111;
+  font-size:2rem;
+  text-align:center;
+  border-radius:10px 10px 0 0 ;
+}
+input[type="submit"]{
+  all:unset;
+  width:100%;
+  text-align:center;
+  outline:1px solid #111;
+  font-size:2.3rem;
+  display:block;
+  cursor:pointer;
+  padding:10px;
+  background-color:#fff;
+  color:#000;
+  box-shadow:9px 9px 0px #111;
+  border-radius:6px;
+}
+input[type="submit"]:hover{
+  transition:all .3s ease;
+  box-shadow:1px 1px 0px #111;
+  color:#000;
+}
+
+.message_div{
+  font-size:18px;
+  width:100%;
+  position:absolute;
+  left:0;
+  top:0;
+  visibility:hidden;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight:900;
+  text-transform:lowercase;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin:0 auto;
+  background-color:#eee;
+  height:5rem;
+  text-align:center;
+  transition:all .2s ease;
+}
+.message_div.errormsg{
+  color:#9B4444;
+  visibility:hidden;
+}
+.message_div.successmsg{
+  color:#A3C9AA;
+  visibility:hidden;
+}
+div.exist{
+  font-size:18px;
+  width:100%;
+  position:absolute;
+  left:0;
+  top:0;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight:900;
+  text-transform:lowercase;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin:auto auto;
+  width:calc(100% - 3rem);
+  background-color:#eee;
+  height:5rem;
+  text-align:center;
+  color:#2D3250;
+}
+}
+
+@media screen and (min-width:413px){
+div.container{
+  width:calc(100% - 4rem);
+  height:90vh;
+  border:1px solid #111;
+  padding:2rem;
+  border-radius:30px;
+}
+h1.title{
+  font-size:2.8rem;
+  color:#111;
+  text-align:center;
+  font-weight:300;
+  margin:.5rem 0;
+  padding-bottom:1rem;
+}
+div.email-container{
+  width:100%;
+  height:20vh;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items:center; 
+}
+input[type="email"]{
+  all:unset;
+  display:block;
+  width:calc(100% - 3rem);
+  padding:10px;
+  border:1px solid #111;
+  font-size:1.3rem;
+  text-align:center;
+  border-radius:10px 10px 0 0 ;
+}
+input[type="submit"]{
+  all:unset;
+  width:100%;
+  text-align:center;
+  outline:1px solid #111;
+  font-size:1.6rem;
+  display:block;
+  cursor:pointer;
+  padding:10px;
+  background-color:#fff;
+  color:#000;
+  box-shadow:9px 9px 0px #111;
+  border-radius:6px;
+}
+input[type="submit"]:hover{
+  transition:all .3s ease;
+  box-shadow:1px 1px 0px #111;
+  color:#000;
+}
+
+.message_div{
+  font-size:18px;
+  width:100%;
+  position:absolute;
+  left:0;
+  top:0;
+  visibility:hidden;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight:900;
+  text-transform:lowercase;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin:0 auto;
+  background-color:#eee;
+  height:4rem;
+  text-align:center;
+  transition:all .2s ease;
+}
+.message_div.errormsg{
+  color:#9B4444;
+  visibility:hidden;
+}
+.message_div.successmsg{
+  color:#A3C9AA;
+  visibility:hidden;
+}
+div.exist{
+  font-size:18px;
+  width:100%;
+  position:absolute;
+  left:0;
+  top:0;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight:900;
+  text-transform:lowercase;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin:auto auto;
+  width:100%;
+  background-color:#eee;
+  height:4rem;
+  text-align:center;
+  color:#2D3250;
+}
+}
+
+@media screen and (max-width:412px){
+div.container{
+  width:calc(100% - 5rem);
+  height:80vh;
+  border:1px solid #111;
+  padding:2rem;
+  border-radius:30px;
+}
+h1.title{
+  font-size:2.5rem;
+  color:#111;
+  text-align:center;
+  font-weight:300;
+  margin:.5rem 0;
+  padding-bottom:1rem;
+}
+div.email-container{
+  width:100%;
+  height:20vh;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items:center; 
+}
+input[type="email"]{
+  all:unset;
+  display:block;
+  width:calc(100% - 3rem);
+  padding:10px;
+  border:1px solid #111;
+  font-size:1rem;
+  text-align:center;
+  border-radius:10px 10px 0 0 ;
+}
+input[type="submit"]{
+  all:unset;
+  width:100%;
+  text-align:center;
+  outline:1px solid #111;
+  font-size:1.4rem;
+  display:block;
+  cursor:pointer;
+  padding:10px;
+  background-color:#fff;
+  color:#000;
+  box-shadow:9px 9px 0px #111;
+  border-radius:6px;
+}
+input[type="submit"]:hover{
+  transition:all .3s ease;
+  box-shadow:1px 1px 0px #111;
+  color:#000;
+}
+
+.message_div{
+  font-size:18px;
+  width:100%;
+  position:absolute;
+  left:0;
+  top:0;
+  visibility:hidden;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight:900;
+  text-transform:lowercase;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin:0 auto;
+  background-color:#eee;
+  height:3rem;
+  text-align:center;
+  transition:all .2s ease;
+}
+.message_div.errormsg{
+  color:#9B4444;
+  visibility:hidden;
+}
+.message_div.successmsg{
+  color:#A3C9AA;
+  visibility:hidden;
+}
+div.exist{
+  font-size:18px;
+  width:100%;
+  position:absolute;
+  left:0;
+  top:0;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight:900;
+  text-transform:lowercase;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin:auto auto;
+  width:100%;
+  background-color:#eee;
+  height:3rem;
+  text-align:center;
+  color:#2D3250;
+}
+}
