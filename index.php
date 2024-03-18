@@ -12,9 +12,6 @@ if(mysqli_num_rows($result)>0){
    <div class='exist'>Email Already Exist</div>
    "; 
         }
-        else{
-            break;
-        }
     }
 }
 else{
@@ -34,7 +31,7 @@ else{
 </head>
 <body>
    <div class="container">
-    <h1 class="title">Stay Updated</h1>
+    <h1 class="title">newsletter</h1>
     <form method="post" action="<?php $_SERVER['PHP_SELF']?>">
     <div class="email-container">
         <input type="email" name="email" id="email" required/>
